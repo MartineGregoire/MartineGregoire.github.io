@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#random{
+			width:100%;
+			height:800px;
+			border: 1px dotted blue;
+			background-image: url(https://www.joshdodson.com/wp-content/uploads/2016/12/dino-gif.gif);
+			background-size: contain;
+			background-repeat: no-repeat;
+			font-size: 46px;
+			
+		}
+	</style>
+
+
+</head>
+<body>
+
+
+	<div id="random"></div>
+
+<script type="text/javascript">
+	var box = document.getElementById('random')
+	var words= [
+    "Hi",
+    "Blah",
+    "Smother my mother with hugs :)",
+    "Chocolate"
+
+
+	]
+
+
+	random.addEventListener("click", function(){
+
+		var x = Math.round(Math.random()*3)
+		console.log(x)
+
+		random.innerText = words[x];
+
+
+	})
+
+</script>
+</body>
+</html>
