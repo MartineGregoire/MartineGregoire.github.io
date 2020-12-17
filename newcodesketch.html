@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#nugget{
+			width: 400px;
+			height:400px;
+			background-image:url(nugget.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-color: white;
+			background-position: center;
+			position:absolute;
+			left:30px;
+			top:30px;
+			animation-name:bounce;
+			animation-duration:2s;
+			animation-iteration-count: infinite;
+
+
+		}
+@keyframes bounce {
+	0% {
+		transform: translateY(0%) scaleY(0.6);
+	}
+	60%{
+		transform: translateY(-100%) scaleY(1.1);
+	}
+	70%{
+		transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+	}
+	80%{
+		transform: translateY(0%) scaleY(1.05) scaleX(1);
+	}	
+	90%{
+		transform: translateY(0%) scaleY(0.95) scaleX(1);
+	}				
+	100%{
+		transform: translateY(0%) scaleY(1) scaleX(1);
+
+
+
+	</style>
+
+
+	<title></title>
+</head>
+
+
+<body>
+<div id="nugget"></div>
+
+
+</body>
+</html>
